@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1052844705599",
+    "firebase_url": "https://otrodelivery-test-default-rtdb.firebaseio.com",
+    "project_id": "otrodelivery-test",
+    "storage_bucket": "otrodelivery-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052844705599:android:4a3f32e7f7336fbf7df58a",
+        "android_client_info": {
+          "package_name": "com.otromobility.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052844705599-sjc2c8tkb9r8jt3l4le4ptuvnjqs7n3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbqU-JhJ3Ibv4D4bdKpqwXWdBq_tXgyPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052844705599-sjc2c8tkb9r8jt3l4le4ptuvnjqs7n3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

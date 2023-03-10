@@ -1,33 +1,48 @@
 {
-  "expo": {
-    "name": "food-delivery",
-    "slug": "food-delivery",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "expo": {
+        "name": "food-delivery",
+        "slug": "food-delivery",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.otrodelivey.otrodeliveyapp1",
+            "buildNumber": "1.0.0",
+            "config": {
+                "googleMapsApiKey": "AIzaSyBO49mmbW858MgZzrOowngolR_r0VvvRsw"
+            }
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "com.otrodelivey.otrodeliveyapp1",
+            "versionCode": 1,
+            "config": {
+                "googleMaps": {
+                    "apiKey": "AIzaSyBO49mmbW858MgZzrOowngolR_r0VvvRsw"
+                }
+            }
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "d13426a0-efdf-4638-ae55-163aef5b9cf8"
+            }
+        }
     }
-  }
 }
